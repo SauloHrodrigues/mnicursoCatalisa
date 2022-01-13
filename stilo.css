@@ -37,7 +37,13 @@ main > section button {
    font-weight: 500;
    letter-spacing: -0.6px;/*entre letras*/
    line-height: 20px;/* altura da linha*/
-   text-transform: uppercase;/*todas maiusculas*/
    padding: 9px 23px;
+   text-transform: uppercase;/*todas maiusculas*/
+}
 
+#detlhes-container {
+    font-weight: bold;
+    list-style-type: none;
+    height: 30px;
+    width: 90%;
 }
