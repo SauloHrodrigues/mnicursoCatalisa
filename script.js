@@ -5,13 +5,13 @@ const nomeDoPersonagem = document.querySelector('#nome');
 const especie = document.querySelector('#especie');
 const condicao = document.querySelector('#status');
 
-gerarValorAleatorio = () =>{
+gerarValorAleatorio = () =>{ // => aero function
     return Math.floor(Math.random() * 671);
 }
 
 pegarPersonagem = () => { // função de chamada de API
-    let  numeroAleatorio;
-    return fetch(`https://rickandmortyapi.com/api/character/3`, {
+    let  numeroAleatorio = gerarValorAleatorio();
+    return fetch(`https://rickandmortyapi.com/api/character/${numeroAleatorio}`, {// a crase no JS permite a alteração em tempo real
         method:'GET',
         headers: {
             Accept: 'application/json',
