@@ -27,7 +27,9 @@ main > section img {
 
 }
 
-main > section button {
+/*main > section button {*/
+
+    #botao {
    
    background-color: #00BFFF; 
    border: none;
@@ -36,6 +38,7 @@ main > section button {
    font-family: EuclidBold;
    font-size: 12px;
    font-weight: 500;
+   
    letter-spacing: -0.6px;/*entre letras*/
    line-height: 20px;/* altura da linha*/
    padding: 9px 23px;
@@ -46,11 +49,16 @@ main > section button {
     
     font-weight: bold;
     list-style-type: none;
-    height: 60px;
+   /* height: 120px;*/
     width: 90%;
     
 }
 
-#detalhes-container > li {
-    align-items: baseline;
+#detlhes-container > li {
+    align-items: baseline;/* */
+    display: flex;
+}
+
+#detlhes-container > li p{
+    color: #fff;
 }
