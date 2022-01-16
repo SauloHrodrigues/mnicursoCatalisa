@@ -8,21 +8,22 @@
         <title> Conheça Rick and Morthe </title>
         <link rel="stylesheet" href="stilo.css">
         <script src="script.js" defer></script>
+        <!-- defer => executa o javaScript já no inicio do html-->
 
     </head>
     <body>
         <main>
             <section>
-                <img alt="imagem com o logo rick and Morty e os personagens proncipais" src="https://images.tcdn.com.br/img/img_prod/697730/adesivo_lateral_vidro_caminhao_carro_decorativo_rick_and_morty_1147486360_1_20201210150106.jpg">
+                <img id="imagem" alt="imagem com o logo rick and Morty e os personagens proncipais" src="https://images.tcdn.com.br/img/img_prod/697730/adesivo_lateral_vidro_caminhao_carro_decorativo_rick_and_morty_1147486360_1_20201210150106.jpg">
 
                 <ul id="detlhes-container">
-                    <li>Nome: <p id="nome"></p>
+                    <li>Nome do Personagem: <p id="nome"></p>
                     </li><!-- Lista-->
                     <li>Especie: <p id="especie"></p></li>
-                    <li id="status">Esta Vivo?</li>
+                    <li>Status:<p id="status"></p> </li>
                 </ul>
-                <button id="botao">Conheça um personagem Rick And Morty</button>
-               
+
+                <button id="botao">Conheça um personagem Rick And Morty</button>           
 
             </section>
         </main>
